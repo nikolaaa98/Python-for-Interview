@@ -1,0 +1,125 @@
+# Variables are dynamicly types language
+n = 0 # it is not neccesery to write types of variables;  types are determened after runtime
+n = "abc" # it is 
+n, m = 0, "abc" # multiple asigments
+
+#increment 
+n = n + 1 # good
+n+= 1 # good
+#n++ # bad it is not possible
+
+#none is null
+n = 4
+n = None
+
+# logical and = and (instead of &&), logical or = or (instead of ||)
+
+#division is decimal by default
+print(5 / 2) # will be 2.5, in most languages will be 2
+print(5 // 2) # will be 2, integer division
+
+print(-10 % 3) # will be 2, if we want negative we need to use math library
+# math library for ceil flour for round number
+
+# arrays (caled list in python)
+
+arr = [1, 2, 3]
+print(arr)
+
+#can be used as a stack (dynamic array)
+arr.append(4)
+arr.append(5)
+print(arr)
+
+arr.pop()
+print(arr)
+
+arr.instert(1, 7) # in index 1, insert number 7
+print(arr)
+
+arr([-1]) # will give from element from back, it is not error like in c, also could be arr[-2]...
+
+n = 5
+arr = [1] * 5
+len(arr) # lenght of array
+
+arr[1:3] # get value of index from index 1 to index 3, but not including 3
+
+a, b = [1, 2, 3]
+
+for i, n in enumerate(nums):
+    print(i, n) # give me index of array and values
+    
+for n1, n2 in zip(n1, n2) # we can use zip to inerate on both array simultaneously
+
+nums.revers() # to 
+nums.sort(reverse = True) # sort how you want from lower to bigger or oposite
+
+arr.sort(key=lamba x : len(x))
+
+
+# List comprehension
+arr = [i for i in range(5)] # 0 1 2 3 4 
+arr = [i+i for i in range(5)] # 0 2 4 6 8
+arr = [[0]*4 for i in range(4)] # [0, 0, 0, 0],  [0, 0, 0, 0],  [0, 0, 0, 0],  [0, 0, 0, 0]
+print(arr)
+
+s[0] = "abs" #
+
+# when we substruct add strings we append 
+ord("a") # ascii value of a
+
+strings = ["ab", "cd", "ef"]
+"".join(strings) # abcdef
+
+queue.append(1)
+queue.append(2)
+
+queue.popleft() # pop left from queue constanly, which is not case with stack
+
+
+# HashSet
+mySet = set()
+
+mySet.add(1)
+mySet.add(2)
+print(mySet)
+print(len(mySet))
+
+print(1 in mySet) # True
+mySet.remove(2)
+
+self je kao this u drugim jezicima
+__init__ -> kao ime kostruktora
+
+queues 
+
+hash sets
+
+hash maps
+
+tuples
+
+
+heaps
+minHeap = []
+heapq.heappush(minHeap, 3)
+heapq.heappush(minHeap, 2)
+heapq.heappush(minHeap, 4)
+
+while len(minHeap) : 
+	print(heapph.heappop(minHeap))
+
+mnozimo sa -1 ako zelimo maxHeap
+
+maxHeap = []
+heapq.heappush(maxHeap, 3)
+heapq.heappush(maxHeap, 2)
+heapq.heappush(maxHeap, 4)
+
+while len(maxHeap): 
+	print(-1*heappq.heappop(maxHeap)
+
+arr = [2, 1, 8, 4, 5]
+heappq.heapify(arr)
+	print(heappq.heappop(arr))
